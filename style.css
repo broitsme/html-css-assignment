@@ -1,81 +1,89 @@
-.flex-container {
-    display: flex;
-    justify-content: center;
+header {
+    width: 100%;
     background-color: #011330;
-  }
-  
-  .flex-container > div {
-    background-color: White;
-    border: 5px;
-    border-style: solid;
-    border-color: orange;
-    width: 20%;
-    height: 40%;
-    margin: 10px;
+    color: White;
+    padding: 20px;
     text-align: center;
-    line-height: 25px;
-    font-size: 30px;
   }
 
-  .h1 {
+  header > div{
+    border: 2px solid orange;
     color: #011330;
+    width: 200px;
+    background-color: White;
+    margin: auto;
   }
 
-  html{
-    padding-left: 300px;
-    padding-right: 300px;
+  body{
+    margin: 0;
+    overflow-x: hidden;
   }
+
   #category{
-      width: 200px;
-      height: 50px;
-      font-size: 30px;
+      width: 150px;
+      height: 40px;
   }
+
   .menu-mid-text{
     color: #011330;
-}
-  .category-head{
-    display:inline;
-  }
-
-  .sub-input{
-    float:right;
   }
 
   #sub-text-input{
     border: 2px;
     border-style: solid;
     border-color: black;
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
+    width: 150px;
+    height: 40px;
   }
   .sub-button {
+    margin-left: -5px;
     background-color: black;
     border: none;
     color: white;
     text-align: center;
-    width: 200px;
-    height: 57px;
-    font-size: 30px;
+    width: 150px;
+    height: 46px;
   }
-  .inline{
-    display: inline-flex; 
-    margin:10px;
-  }
-  .flex-container-news {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .flex-container-news > div {
-    background-color: White;
-    border: 5px;
-    border-style: solid;
-    border-color: orange;
-    width: 20%;
-    height: 40%;
-    margin: 10px;
-    text-align: center;
-    line-height: 25px;
-    font-size: 30px;
-  }
+
+    .flex-container-menu {
+      flex-wrap: wrap;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .flex-container-menu > div {
+      margin: 10px;
+      text-align: left;
+      line-height: 25px;
+    }
+    .menu-mid-text{
+      text-align: center;
+      margin-top: 80px;
+      margin-left: 160px;
+    }
+
+
+        .flex-container-news {
+          flex-wrap: wrap;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .flex-container-news > div {
+          text-align: left;
+          line-height: 25px;
+        }
+
+        .frame {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        padding: 15px 25px;
+        }
+
+        img {
+        width: 100%;
+        height: 100%;
+        }
