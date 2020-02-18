@@ -9,39 +9,60 @@
 </head>
 
 <body>
-  <div class="header">
-    <div class="flex-container">
-      <div>
-        <h1 class="h1">News Blog</h1>
-        <h5 class="h1">Worldwide News</h5>
-      </div>
-    </div>
-    </header>
-    <div class="menu">
-      <div class="category-head inline">
-        <h1>Select Category</h1>
+  <header>
+    <div>
+    <h1>News Blog</h1>
+    <h5>Worldwide News</h5>
+  </div>
+  </header>
+
+    <div class="flex-container-menu">
+      <div class="category-head">
+        <h4>SELECT CATEGORY</h4>
         <select id="category">
           <option value="All">All</option>
           <option value="category1">category1</option>
           <option value="category2">category2</option>
           <option value="category3">category3</option>
         </select>
-
       </div>
-      <div class="inline">
+
+      <div>
         <h1 class="menu-mid-text">All News</h1>
       </div>
 
-      <div class="sub-input inline">
-        <h1>Subscribe</h1>
-        <br>
-        <input id="sub-text-input" type="text" />
+      <div class="sub-input">
+        <h4>SUBSCRIBE</h4>
+        <input id="sub-text-input" type="text" placeholder="Email Address"/>
         <button class = "sub-button" type="button">Subscribe</button>
       </div>
+    </div>
+    <hr>
+
+    <div class="flex-container-news">
+
+    <div>
+      <img class="frame" src="media/unnamed.jpg" alt="image1">
+      <div class="text-inside-news">
+        hell0
+      </div>
+    </div>
+
+    <div>
+      <img class="frame" src="media/unnamed.jpg" alt="image2">
+      <div class="text-inside-news">
+        hello
+      </div>
+    </div>
+
+    <div>
+      <img class="frame" src="media/unnamed.jpg" alt="image3">
+      <div class="text-inside-news">
+        hello
+      </div>
+    </div>
 
     </div>
-    <hr size="5" color="black">
-    <flex-box>
 </body>
 
 </html>
