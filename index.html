@@ -2,67 +2,107 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
-  <header>
-    <div>
-    <h1>News Blog</h1>
-    <h5>Worldwide News</h5>
-  </div>
-  </header>
+    <header>
+        <div>
+            <h1>News Blog</h1>
+            <h5>Worldwide News</h5>
+        </div>
+    </header>
 
     <div class="flex-container-menu">
-      <div class="category-head">
-        <h4>SELECT CATEGORY</h4>
-        <select id="category">
-          <option value="All">All</option>
-          <option value="category1">category1</option>
-          <option value="category2">category2</option>
-          <option value="category3">category3</option>
-        </select>
-      </div>
+        <div class="category-head">
+            <h4>SELECT CATEGORY</h4>
+            <select id="category">
+        <option value="All">All</option>
+        <option value="category1">category1</option>
+        <option value="category2">category2</option>
+        <option value="category3">category3</option>
+      </select>
+        </div>
 
-      <div>
-        <h1 class="menu-mid-text">All News</h1>
-      </div>
+        <div class="menu-mid-text">
+            <h1>All News</h1>
+        </div>
 
-      <div class="sub-input">
-        <h4>SUBSCRIBE</h4>
-        <input id="sub-text-input" type="text" placeholder="Email Address"/>
-        <button class = "sub-button" type="button">Subscribe</button>
-      </div>
+        <div class="sub-input">
+            <h4>SUBSCRIBE</h4>
+            <input id="sub-text-input" type="text" placeholder="Email Address" />
+            <button class="sub-button" type="button">Subscribe</button>
+        </div>
     </div>
     <hr>
-
     <div class="flex-container-news">
 
-    <div>
-      <img class="frame" src="media/unnamed.jpg" alt="image1">
-      <div class="text-inside-news">
-        hell0
-      </div>
-    </div>
+        <div>
+            <div>
+                <img class="frame" src="media/unnamed.jpg" alt="image1">
+            </div>
+            <div class="news-content">
+                <div class="title-inside-news">
+                    <h1>Title One</h1>
+                </div>
+                <div class="info-inside-news">
+                    <h5>posted on 29 june // Category: Category One</h5>
+                </div>
+                <div class="text-inside-news">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum lorem eu cursus. Nam nec dapibus justo. Aliquam at turpis purus. Maecenas vitae molestie sapien. Sed tristique sapien ornare erat gravida, eget maximus urna gravida.
+                    In vel ex sem. Suspendisse potenti. Duis elementum faucibus felis quis bibendum.
+                </div>
+                <button class="continiue-reading-button" type="button">Continiue Reading</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="frame" src="media/unnamed.jpg" alt="image2">
+            </div>
+            <div class="news-content">
+                <div class="title-inside-news">
+                    <h1>Title Two</h1>
+                </div>
+                <div class="info-inside-news">
+                    <h5>posted on 29 june // Category: Category One</h5>
+                </div>
+                <div class="text-inside-news">
+                    Lo rem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum lorem eu cursus. Nam nec dapibus justo. Aliquam at turpis purus. Maecenas vitae molestie sapien. Sed tristique sapien ornare erat gravida, eget maximus urna gravida.
+                    In vel ex sem. Suspendisse potenti. Duis elementum faucibus felis quis bibendum.
+                </div>
+                <button class="continiue-reading-button" type="button">Continiue Reading</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img class="frame" src="media/unnamed.jpg" alt="image3">
+            </div>
+            <div class="news-content">
+                <div class="title-inside-news">
+                    <h1>Title Three</h1>
+                </div>
+                <div class="info-inside-news">
+                    <h5>posted on 29 june // Category: Category One</h5>
+                </div>
+                <div class="text-inside-news">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum condimentum lorem eu cursus. Nam nec dapibus justo. Aliquam at turpis purus. Maecenas vitae molestie sapien. Sed tristique sapien ornare erat gravida, eget maximus urna gravida.
+                    In vel ex sem. Suspendisse potenti. Duis elementum faucibus felis quis bibendum.
+                </div>
+                <button class="continiue-reading-button" type="button">Continiue Reading</button>
+            </div>
+        </div>
 
-    <div>
-      <img class="frame" src="media/unnamed.jpg" alt="image2">
-      <div class="text-inside-news">
-        hello
-      </div>
     </div>
-
-    <div>
-      <img class="frame" src="media/unnamed.jpg" alt="image3">
-      <div class="text-inside-news">
-        hello
-      </div>
-    </div>
-
-    </div>
+    <footer>
+        <div>
+            <h3> &#169; NewsFeed 2019 </h3>
+        </div>
+    </footer>
 </body>
 
 </html>
